@@ -1,0 +1,15 @@
+#moon {
+  /*-skrollr-animation-name: moon-animation1;*/
+}
+
+@-skrollr-keyframes moon-animation1{
+  0 {
+      background-color: red;
+      opacity: 100%;
+      display: inline;
+    }
+  1010 {
+    background-color: green;
+    display: none;
+    }
+}

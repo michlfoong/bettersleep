@@ -1,0 +1,450 @@
+@font-face {
+    font-family:"AvenirNext-Regular";
+    src: url("fonts/avenirnext-regular.ttf") /* EOT file for IE */
+}
+@font-face {
+    font-family:"AvenirNext-Bold";
+    src: url("fonts/AvenirNext-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family:"AvenirNext-DemiBold";
+    src: url("fonts/AvenirNext-DemiBold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family:"AvenirNextCondensed-Bold";
+    src: url("fonts/AvenirNextCondensed-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+body {
+  font-size: 16pt;
+  /* = 1 rem */
+  margin: 0;
+  min-width: 405px;
+  font-family: "AvenirNext", sans-serif;
+}
+#moon {
+  position: fixed;
+  width: 120px;
+  right: 85%;
+  top: 300px;
+  z-index: 1;
+  /*background-color: #114557;*/
+}
+#moon img {
+  text-align: right;
+  height: 150px;
+  width: 150px;
+}
+.sun {
+  position: fixed;
+  width: 120px;
+  right: 85%;
+  top: 300px;
+}
+.sun img {
+  height: 150px;
+  width: 150px;
+}
+.home {
+  width: auto;
+  padding: 3rem 1rem 3rem 1rem;
+  margin: 0 auto;
+}
+.home img {
+  width: 46rem;
+}
+.intro {
+  width: auto;
+  padding: 3rem 1rem 3rem 1rem;
+  margin: 0 auto;
+}
+.why {
+  width: auto;
+  padding: 3rem 1rem 10rem 1rem;
+  background-image: url("..images/F-.png");
+  margin: 0 auto;
+}
+.other {
+  width: auto;
+  padding: 3rem 1rem 3rem 1rem;
+  margin: 0 auto;
+}
+.how {
+  width: auto;
+  padding: 3rem 1rem 3rem 1rem;
+  margin: 0 auto;
+}
+.tips {
+  width: auto;
+  padding: 3rem 1rem 6rem 1rem;
+  margin: 0 auto;
+}
+.research {
+  padding: 3rem 1rem 3rem 1rem;
+}
+h1 {
+  font-family: AvenirNextCondensed-Bold;
+  font-size: 10rem;
+  color: #FDFBE2;
+  line-height: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: AvenirNextCondensed-Bold;
+  font-size: 5.8rem;
+  color: #00C6CC;
+  line-height: 6rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: AvenirNext-Regular;
+  font-size: 2.2rem;
+  letter-spacing: 0.4em;
+  line-height: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-family: AvenirNext-Regular;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0rem;
+}
+a {
+  font-family: AvenirNext-DemiBold;
+  font-size: 20px;
+  color: #FD6744;
+  text-decoration: none;
+  line-height: 28px;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 94%;
+}
+.home h1 {
+  font-family: AvenirNextCondensed-Bold;
+  font-size: 7rem;
+  line-height: 7.5rem;
+  color: #FDFBE2;
+  text-align: left;
+}
+.intro p {
+  /* Many students sacrif: */
+  font-family: AvenirNext-Regular;
+  font-size: 24px;
+  line-height: 40px;
+}
+.intro strong {
+  /* better grades */
+  font-family: AvenirNext-DemiBold;
+  font-size: 24px;
+  color: #00C0BF;
+  line-height: 40px;
+}
+.other strong {
+  /* better grades */
+  font-family: AvenirNext-DemiBold;
+  font-size: 2.2rem;
+  color: #00C0BF;
+  line-height: 40px;
+}
+.otherimage img {
+  width: 180px;
+  position: absolute;
+  right: -30%;
+  bottom: 0rem;
+}
+.tipsimage {
+  height: 15rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.tipsimage img {
+  height: 15rem;
+}
+.how strong {
+  font-family: AvenirNext-Bold;
+  font-size: 2.2rem;
+  color: #00C0BF;
+  line-height: 40px;
+}
+.container {
+  max-width: 46rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+.flex {
+  max-width: 46rem;
+  margin: auto;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex h3 {
+  font-size: 2.2rem;
+  letter-spacing: 0.4em;
+  text-align: left;
+  margin: 1rem 0rem 0.75rem 0rem;
+}
+.flexright {
+  max-width: 46rem;
+  margin: auto;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+.flexright .text {
+  padding: 0 0 0 2rem;
+  text-align: right;
+}
+.flexright .text h3 {
+  text-align: right;
+  margin: 1rem 0rem 0.75rem 0rem;
+}
+.appsimg {
+  width: 150px;
+}
+.appsimg img {
+  width: 150px;
+  margin-top: 1rem;
+}
+.text {
+  padding-right: 2rem;
+}
+.text a {
+  font-family: AvenirNextCondensed-Bold;
+  font-size: 1em;
+  color: #00C6CC;
+  line-height: 2rem;
+  text-align: center;
+  margin: 2 2 2 0rem;
+  text-transform: uppercase;
+}
+.research h2 {
+  margin: auto;
+}
+.research p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  word-wrap: break-word;
+}
+.research a {
+  font-family: AvenirNext-Regular;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-decoration: underline;
+  color: #4A4A4A;
+}
+.cream {
+  color: #FDFBE2;
+}
+.babyblue {
+  color: #BCE7F2;
+}
+.teal {
+  color: #00C6CC;
+}
+.black {
+  color: #4A4A4A;
+}
+.bg-color-dark-teal {
+  background-color: #114557;
+  position: relative;
+  z-index: 0;
+}
+.bg-color-cream {
+  background-color: #FFF8EA;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 78rem) {
+  .otherimage {
+    width: 200px;
+    margin: auto;
+  }
+  .otherimage img {
+    width: 1;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 72rem) {
+.sun {
+  display: none;
+}
+#moon {
+  display: none;
+}
+}
+@media screen and (max-width: 48rem) {
+  .home h1 {
+    font-size: 4.8rem;
+    line-height: 5rem;
+  }
+  h1 {
+    font-size: 7rem;
+    margin-bottom: auto;
+  }
+  h2 {
+    font-size: 4.7rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+  }
+  .tipsimage img {
+    height: 10rem;
+    text-align: center;
+  }
+  .videoWrapper iframe {
+    height: 91%;
+  }
+  .why {
+    width: auto;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+  .other {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .how {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .tips {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .research {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .research p {
+    font-size: 0.8rem;
+  }
+  .research a {
+    font-size: 0.8rem;
+  }
+  .container {
+    max-width: 30rem;
+  }
+  .home img {
+    width: 30rem;
+  }
+  .flex {
+    max-width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex h3 {
+    font-size: 2.2rem;
+    letter-spacing: 0.4em;
+    margin: 1rem 0rem 0.75rem 0rem;
+  }
+  .flexright {
+    max-width: 30rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexright .text {
+    padding: 0;
+    text-align: left;
+  }
+  .flexright .text h3 {
+    text-align: left;
+  }
+  .appsimg {
+    margin: auto;
+  }
+  .appsimg img {
+    width: 150px;
+  }
+  .special {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 32rem) {
+  h1 {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .home h1 {
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.4rem;
+    margin-top: 0rem;
+  }
+  .other h3 {
+    text-align: left;
+  }
+  p {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+  }
+  a {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+  }
+  .how strong {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    color: #00C0BF;
+    line-height: 1.8rem;
+  }
+  .videoWrapper iframe {
+    height: 100%;
+  }
+  .container {
+    max-width: 20rem;
+  }
+  .home img {
+    width: 20rem;
+  }
+  .special {
+    max-width: 15rem;
+    margin: 0 auto;
+  }
+  .flex {
+    max-width: 20rem;
+  }
+  .flex h3 {
+    font-size: 1.65rem;
+  }
+  .flexright {
+    max-width: 20rem;
+  }
+  .flexright h3 {
+    font-size: 1.65rem;
+  }
+}
